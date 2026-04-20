@@ -20,5 +20,5 @@ async def on_message(message):
         await message.channel.send('สวัสดีเจ้ามนุษย์! เรา Mazy เองนะ 🐾')
 
 # ดึง Token จาก Environment Variable (เพื่อความปลอดภัย)
-token = os.getenv('DISCORD_TOKEN')
+token = 'MTQ5NTYyNDMzNjA3MTk4MzIxOA.GAkI-0.BqHdK8KwgaVinMpvev-wDNiohyIDV3pDRYmnAE'
 client.run(token)
